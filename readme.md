@@ -1,6 +1,8 @@
 # K8s Hard Mode on Azure
 
-This readme is based on Kelsey Hightower's "Kubernetes the hard way"
+This readme lists out steps I followed for creating a practise Kubernetes cluster on Azure compute.
+
+The guide I followed is Kelsey Hightower's "Kubernetes the hard way"
 It can be found [here]("https://github.com/kelseyhightower/kubernetes-the-hard-way")
 
 Disclaimers:
@@ -13,6 +15,8 @@ This is not AKS or ACS-Engine equivalent.
 If you require more info on every step below, be sure to check out Kelsey's guide as mentioned above.
 
 I've created a brain dump image of all the components
+
+<img src="./azure.jpg" /> </br>
 
 ## Prerequisites
 
