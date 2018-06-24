@@ -3,7 +3,7 @@
 This readme lists out steps I followed for creating a practise Kubernetes cluster on Azure compute.
 
 The guide I followed is Kelsey Hightower's "Kubernetes the hard way"
-It can be found [here]("https://github.com/kelseyhightower/kubernetes-the-hard-way")
+It can be found [here](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 
 Disclaimers:
 This is not a conversion or a re-implementation of it. It's not even really a guide.
@@ -25,7 +25,7 @@ I've created a brain dump image of all the components
 * CFSSL and CFSSLJSON as per Kelsey's guide
 * Azure CLI
 
-You can use my [kube-tools]("https://github.com/marcel-dempers/kube-tools") which has all the prerequisites to bootstrap Kubernetes
+You can use my [kube-tools](https://github.com/marcel-dempers/kube-tools) which has all the prerequisites to bootstrap Kubernetes
 
 ## Create temporary folder to generate everything
 
@@ -42,7 +42,7 @@ To access your cluster controller and workers VMs you will need to generate SSH 
 
 ## Create network
 
-```
+```m
 ./network.sh
 ```
 
